@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Project #12 – Machine Learning Interactive Teaching Tool (MLITT)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f7fa;
+            color: #222;
+        }
+
+        header {
+            background: #2b7a78;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px 10px 10px;
+        }
+
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+            object-fit: cover;
+            border: 4px solid #fff;
+            background: #fff;
+        }
+
+        h1 {
+            font-size: 2em;
+            margin: 0.2em 0 0 0;
+        }
+
+        .project-id {
+            font-weight: bold;
+            font-size: 2.1em;
+            letter-spacing: 1px;
+            margin-bottom: 0.5em;
+        }
+
+        .course-info {
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #3aafa9;
+            font-weight: bold;
+        }
+
+        .team {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 20px 0 10px 0;
+            flex-wrap: wrap;
+        }
+
+        .team-member {
+            text-align: center;
+            width: 120px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .team-member img {
+            width: 280px;
+            height: 280px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 2px solid #3aafa9;
+            margin-bottom: 8px;
+        }
+
+        .team-member-name {
+            font-size: 1em;
+            font-weight: 600;
+            color: #17252a;
+        }
+
+        nav {
+            margin: 20px 0 0 0;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            background: #3aafa9;
+            color: #fff;
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+
+        nav a:hover {
+            background: #17252a;
+        }
+
+        @media (max-width: 600px) {
+
+            .team,
+            nav {
+                flex-direction: column;
+                align-items: center;
+                gap: 18px;
+            }
+
+            .team-member {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- Project logo or banner at the top -->
+        <img src="project-logo.png" alt="TTML Project Logo">
+        <div class="project-id" style="color:#fe4a49;">[AC-5 Red] </div>
+        <h1>Teaching Tools for Machine Learning (TTML)</h1>
+        <div class="course-info">
+            CS 7993 - AI Capston – Spring 2025
+        </div>
+    </header>
+    <section class="team">
+        <div class="team-member">
+            <img src="KokouAdje.png" alt="Kokou Adje">
+            <div class="team-member-name"> Kokou Adje</div>
+        </div>
+        <!-- Add more team members as needed -->
+    </section>
+    <nav>
+        <a href="files/requirements.pdf" target="_blank">Requirements Document (PDF)</a>
+        <a href="files/design.pdf" target="_blank">Design Document (PDF)</a>
+        <a href="files/final_report.pdf" target="_blank">Final Report (PDF)</a>
+        <a href="https://github.com/yourteam/yourproject" target="_blank">GitHub Repository</a>
+        <a href="https://youtube.com/yourvideo" target="_blank">Final Presentation Video</a>
+    </nav>
+</body>
+
+</html>
